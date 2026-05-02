@@ -3,18 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Map 1 — GIS Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Map 3 — Sarah Kalo GIS Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
 
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="index.html">GIS Portfolio</a>
+        <a class="navbar-brand" href="index.html">Sarah Kalo</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,53 +28,47 @@
       </div>
     </nav>
 
-    <!-- Page Header -->
-    <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+    <header class="masthead" style="background-image: url('post-bg.jpg')">
       <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
             <div class="post-heading">
-              <h1>YOUR MAP 1 TITLE HERE</h1>
-              <h2 class="subheading">Brief subtitle describing this map</h2>
-              <span class="meta">Geographic Information Systems · Temple University</span>
+              <h1>Map 3</h1>
+              <h2 class="subheading">Census Tracts Containing Methane-Producing Landfills</h2>
+              <span class="meta">Geographic Information Systems &middot; Temple University</span>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <!-- Map Content -->
     <article class="mb-4">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
 
-            <!-- YOUR MAP IMAGE -->
-            <img src="map1.jpg"
-                 alt="Map 1"
+            <img src="Map3.jpg" alt="Census Tracts Containing Methane-Producing Landfills"
                  style="width:100%; border-radius:6px; margin-bottom:2rem; box-shadow: 0 4px 16px rgba(0,0,0,0.15);" />
 
-            <!-- YOUR NARRATIVE -->
-            <h2>Map Narrative</h2>
+            <h2 class="section-heading">Map Narrative</h2>
             <p>
-              PASTE YOUR 4–6 SENTENCE NARRATIVE HERE. Tell the story of what the map shows,
-              what problem it helped solve, and what you found.
+              Methane-producing landfills represent a significant environmental hazard, yet they are not distributed equally across communities — their proximity to residential areas often reflects deeper patterns of environmental injustice. This map overlays methane-producing landfill locations with census tract boundaries and per capita income data across the greater Los Angeles region, revealing which communities bear the greatest exposure risk. The wealthiest community identified in this analysis is Beverly Crest, Los Angeles, which, despite its high income level, falls within or near a census tract containing a methane-producing landfill. I propose a comprehensive environmental risk assessment and mitigation plan for Beverly Crest, with a primary focus on the dangers of methane leakage. In addition, awareness about this issue should be raised because the members of this community may use their wealth and influence to advocate for broader policy change. This map partially solves the problem of environmental risk visibility by making the spatial relationship between landfill locations and community demographics clear and actionable.
             </p>
 
-            <!-- GIS TOOLS USED -->
-            <h2>GIS Tools & Skills Used</h2>
+            <h2 class="section-heading">GIS Tools &amp; Skills Used</h2>
             <ul>
-              <li>Tool/skill 1 (e.g., Spatial Join)</li>
-              <li>Tool/skill 2 (e.g., Choropleth Mapping)</li>
-              <li>Tool/skill 3 (e.g., Projection / Coordinate Systems)</li>
-              <li>Add as many as needed</li>
+              <li>Spatial Join — linking landfill locations to census tract boundaries</li>
+              <li>Choropleth Mapping — visualizing per capita income across census tracts</li>
+              <li>Select by Location — identifying tracts that contain methane-producing landfills</li>
+              <li>Basemap Integration — adding a reference basemap for geographic context</li>
+              <li>Layer Symbology &amp; Classification — styling income and landfill layers for clear visual contrast</li>
+              <li>Map Layout &amp; Legend Design — composing a readable, professional final map</li>
             </ul>
 
-            <!-- Navigation between maps -->
             <hr />
             <div style="display:flex; justify-content:space-between;">
+              <a href="map2.html">&larr; Previous Map</a>
               <span></span>
-              <a href="map2.html">Next Map →</a>
             </div>
 
           </div>
@@ -83,18 +76,17 @@
       </div>
     </article>
 
-    <!-- Footer -->
     <footer class="border-top">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
-            <p class="text-center small text-muted">YOUR NAME · Temple University · Geographic Information Systems</p>
+            <p class="text-center small text-muted">Sarah Kalo &middot; Temple University &middot; Geographic Information Systems</p>
           </div>
         </div>
       </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
